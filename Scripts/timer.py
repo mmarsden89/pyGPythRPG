@@ -1,8 +1,9 @@
 from Scripts.globals import Globals
+import random
 
 class Timer:
 
-    def __init__(self, interval = 1):
+    def __init__(self, interval = random.randrange(2,7)):
         self.Interval = interval
         self.Value = 0
         self.LastInt = 0

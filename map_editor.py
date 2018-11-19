@@ -134,7 +134,6 @@ while isRunning:
 
 		if event.type == pygame.MOUSEBUTTONDOWN:
 			tile = [mouse_x - camera_x, mouse_y - camera_y, brush] #keep as list
-
 			found = False
 			for t in tile_data:
 				if t[0] == tile[0] and t[1] == tile[1]:

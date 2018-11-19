@@ -45,8 +45,8 @@ class Map_Engine:
 			if tile[1] in Tiles.Blocked_Types:
 				Tiles.Blocked.append(tile[0])
 
-
 		return terrain
+
 
 
 
